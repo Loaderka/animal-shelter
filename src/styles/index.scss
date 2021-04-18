@@ -1,0 +1,39 @@
+:root {
+  --Orange: #FF9330;
+  --DarkBlue: #2a2746;
+  --White: #fff;
+  --Black: #152242;
+}
+
+body {
+  margin: 0;
+  font-family: Pragmatica, sans-serif;
+  position: relative;
+}
+
+h1, h2, h3, p {
+    margin: 0;
+}
+
+.container {
+  max-width: 1440px;
+  padding: 25px 100px;
+  margin: 0 auto;
+}
+
+.Button {
+  cursor: pointer;
+  border: 1px solid transparent;
+  border-radius: 100px;
+  line-height: 1.4;
+  font-size: 20px;
+  color: #eeebe7;
+
+  &_blue {
+    background-color: var(--DarkBlue);
+  }
+
+  &_orange {
+    background-color: var(--Orange);
+  }
+}

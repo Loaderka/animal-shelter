@@ -1,0 +1,21 @@
+.AnimalCard {
+    height: 400px;
+    width: 288px;
+    border-radius: 14px;
+    overflow: hidden;
+    border: 1px solid #eeebe7;
+
+    &__image {
+        height: 295px;
+        width: 290px;
+    }
+
+    &__info {
+        background-color: #fff;
+        padding: 25px;
+    }
+
+    &__name {
+        font-weight: bold;
+    }
+}  

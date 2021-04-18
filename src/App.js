@@ -1,9 +1,10 @@
-import './App.scss';
-import Header from './components/Header';
+import Page from './containers/main/components/Page';
 
 function App() {
   return (
-    <Header/>
+    <div className='container'>
+      <Page/>
+    </div>
   );
 }
 

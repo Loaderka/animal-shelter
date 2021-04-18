@@ -1,0 +1,20 @@
+.Button {
+    cursor: pointer;
+    border: 1px solid transparent;
+    border-radius: 100px;
+    line-height: 1.4;
+
+    span {
+        font-size: 20px;
+        color: #eeebe7;
+    }
+
+    &_blue {
+        background-color: var(--DarkBlue);
+    }
+
+    &_orange {
+        background-color: var(--DarkBlue);
+    }
+
+}

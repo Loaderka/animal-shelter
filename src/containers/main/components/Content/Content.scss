@@ -1,0 +1,40 @@
+.Content {
+    display: flex;
+    align-items: center;
+    position: relative;
+    height: 700px;
+    
+
+    &::after {
+        position: absolute;
+        content: '';
+        right: 0;
+        top: -40px;
+        width: 660px;
+        height: 600px;
+        background-image: url('../../../../images/cat-dog.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    &__content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        max-width: 700px;
+    }
+
+    &__title {
+        font-size: 70px;
+        color: var(--DarkBlue);
+    }
+
+    &__subtitle {
+        margin: 15px 0 30px;
+    }
+
+    &__button {
+        width: 218px;
+        padding: 10px 50px;
+    }
+}

@@ -1,20 +1,32 @@
 import React from 'react';
+import logo from '../../images/logo-nav.svg';
 
-import {b_} from './Header.scss';
+import './Header.scss';
 
 const Header = () => {
   return (
-    <div className={b_()}>
-      <div className='logo'>
-        <h2>Приют в печатниках</h2>
+    <div className='Header'>
+      <div className='Header__logo'>
+        <img src={logo}/>
+        <h2 className='Header__text'>Приют<br/> в печатниках</h2>
       </div>
-      <ul className='nav'>
-        <li>Помочь приюту</li>
-        <li>Наши подопечные</li>
-        <li>О нас</li>
-        <li>Контакты</li>
-        <li>Волонтеры</li>
-        <li>FAQ</li>
+      <ul className='Header__nav'>
+        <li>
+          <a href='#'>Помочь приюту</a>
+        </li>
+        <li>
+          <a href='#'>Наши подопечные</a>
+        </li>
+        <li>
+          <a href='#'>О нас</a>
+        </li>
+        <li>
+          <a href='#'>Контакты</a></li>
+        <li>
+          <a href='#'>Волонтеры</a></li>
+        <li>
+          <a href='#'>FAQ</a>
+        </li>
       </ul>
     </div>
   );
