@@ -5,6 +5,11 @@
     overflow: hidden;
     border: 1px solid #eeebe7;
 
+    &__container {
+        display: flex;
+        
+    }
+
     &__image {
         height: 295px;
         width: 290px;

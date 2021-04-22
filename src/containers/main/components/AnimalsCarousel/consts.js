@@ -3,46 +3,45 @@ import dakota from '../../../../images/animals-card/дакота.png';
 import saja from '../../../../images/animals-card/сажа.png';
 import kyma2 from '../../../../images/animals-card/кума-2.png';
 
-
 export const ANIMALS_CARUSEL = [
     {
         name: 'Кума',
-        photo: kyma,
+        photos: [kyma, dakota, saja],
         age: '3 года',
     },
     {
         name: 'Дакота',
-        photo: dakota,
+        photos: [dakota, kyma, saja],
         age: '5 месяцев',
     },
     {
         name: 'Сажа',
-        photo: saja,
+        photos: [saja, kyma, dakota],
         age: '2 года',
     },
     {
         name: 'Кума',
-        photo: kyma2,
+        photos: [kyma2, dakota, saja],
         age: '3 года',
     },
     {
         name: 'Кума',
-        photo: kyma,
+        photos: [kyma2, dakota, saja],
         age: '3 года',
+    },
+    {
+        name: 'Сажа',
+        photos: [saja, kyma, dakota],
+        age: '2 года',
     },
     {
         name: 'Дакота',
-        photo: dakota,
+        photos: [dakota, kyma, saja],
         age: '5 месяцев',
     },
     {
-        name: 'Сажа',
-        photo: saja,
-        age: '2 года',
-    },
-    {
         name: 'Кума',
-        photo: kyma2,
+        photos: [kyma, dakota, saja],
         age: '3 года',
     },
 ]
