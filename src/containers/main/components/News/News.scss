@@ -1,0 +1,32 @@
+.News {
+
+    &__slider {
+        
+    }
+
+    & .kVtMtA {
+        left: -40px;
+    }
+
+    & .bhRnqO {
+        right: -40px;
+    }
+
+
+    span {
+        color: var(--DarkBlue);
+        font-weight: bold;
+        font-size: 43px;
+        line-height: 130%;
+    }
+
+    &__wrapper {
+        display: flex;
+        justify-content: center;
+        margin: 30px 0 70px;
+    }
+
+    &__button {
+        padding: 10px 50px;
+    }
+}  
