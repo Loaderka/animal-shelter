@@ -1,7 +1,5 @@
 import React from 'react';
 
-import AwesomeSlider from 'react-awesome-slider';
-
 import './AnimalCard.scss';
 
 const AnimalCard = ({photos, age, name}) => {

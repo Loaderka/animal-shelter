@@ -1,3 +1,28 @@
 .Help {
-    
+    height: 715px;
+    background: linear-gradient(111.4deg, #FF9330 -13.84%, #FF5D01 104.74%, #FF5C00 107.91%);
+
+    &__title {
+        font-size: 43px;
+        line-height: 1.3;
+        color: #fff;
+    }
+
+    &__subtitle {
+        font-size: 20px;
+        color: #fff;
+    }
+
+    &__table {
+        display: flex;
+    }
+
+    &__wrapper {
+        display: flex;
+        justify-content: center;
+    }
+
+    &__button {
+        padding: 10px 30px;
+    }
 }

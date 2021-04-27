@@ -1,0 +1,19 @@
+.HelpCard {
+    width: 400px;
+    height: 130px;
+    padding: 25px;
+    background-color: #fff;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    border-radius: 14px;
+
+    color: #2A2746;
+
+    &__title {
+        font-size: 20px;
+    }
+
+    &__text {
+        font-size: 14px;
+    }
+}

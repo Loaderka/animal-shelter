@@ -1,13 +1,13 @@
 import React from 'react';
-import Carousel, { Item } from 'react-grid-carousel';
+import Carousel, {Item} from 'react-grid-carousel';
 import AnimalCard from '../../../../components/AnimalCard';
+import {ANIMALS_CARUSEL} from './consts';
 
 import './AnimalsCarousel.scss';
-import { ANIMALS_CARUSEL } from './consts';
 
 const AnimalsCarousel = () => {
     return (
-        <div className='Animals'>
+        <div className='Animals container'>
             <Carousel
                 cols={4}
                 rows={1}

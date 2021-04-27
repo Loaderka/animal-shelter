@@ -5,7 +5,7 @@ import './Header.scss';
 
 const Header = () => {
   return (
-    <div className='Header'>
+    <div className='Header container'>
       <div className='Header__logo'>
         <img src={logo}/>
         <h2 className='Header__text'>Приют<br/> в печатниках</h2>

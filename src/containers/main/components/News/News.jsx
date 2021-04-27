@@ -7,7 +7,7 @@ import './News.scss';
 
 const News = () => {
   return (
-    <div className='News'>
+    <div className='News container'>
         <Carousel
             cols={3}
             rows={1}

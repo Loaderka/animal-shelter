@@ -1,12 +1,12 @@
 import React from 'react';
 
-import {HISTORY_TEXT} from '../../consts';
+import {HISTORY_TEXT} from './consts';
 
 import './History.scss';
 
 const History = () => {
   return (
-    <div className='History'>
+    <div className='History container'>
       <span>{ HISTORY_TEXT }</span>
     </div>
   );

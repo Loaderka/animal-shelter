@@ -1,11 +1,9 @@
 import Page from './containers/main/components/Page';
 
 function App() {
-  return (
-    <div className='container'>
-      <Page/>
-    </div>
-  );
+    return (
+        <Page/>
+    );
 }
 
 export default App;
